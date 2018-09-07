@@ -109,3 +109,9 @@ as possible by taking into consideration possible failures on every
 single step on it's way.
 
 Have fun!
+
+## Development
+
+For some weird reason cider doesn't load namespaces from the project by
+default, hence you need to call `cider-refresh` after `cider-jack-in`.
+You can also say `,refresh` in REPL.
